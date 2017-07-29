@@ -38,7 +38,9 @@ public class MainActivity extends AppCompatActivity {
         initCollapsingToolbar();
 
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl(postUrl);
+//        webView.loadUrl(postUrl);
+        // info - Loading local html file into web view
+        webView.loadUrl("file:///android_asset/sample.html");
         webView.setHorizontalScrollBarEnabled(false);
     }
 
