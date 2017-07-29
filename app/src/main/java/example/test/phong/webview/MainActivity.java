@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         // initializing toolbar
         initCollapsingToolbar();
 
+        // info - enable / disable javascript
         webView.getSettings().setJavaScriptEnabled(true);
 //        webView.loadUrl(postUrl);
         // info - Loading local html file into web view
