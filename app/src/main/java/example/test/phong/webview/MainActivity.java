@@ -43,6 +43,13 @@ public class MainActivity extends AppCompatActivity {
         // info - Loading local html file into web view
         webView.loadUrl("file:///android_asset/sample.html");
         webView.setHorizontalScrollBarEnabled(false);
+
+        /**
+         * info - Enabling zoom-in controls
+         * */
+        webView.getSettings().setSupportZoom(true);
+        webView.getSettings().setBuiltInZoomControls(true);
+        webView.getSettings().setDisplayZoomControls(true);
     }
 
     /**
