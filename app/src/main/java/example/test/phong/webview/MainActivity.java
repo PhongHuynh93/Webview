@@ -9,6 +9,9 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+/**
+ * <a href="https://www.androidhive.info/2016/12/android-working-with-webview-building-a-simple-in-app-browser/"></a>
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
